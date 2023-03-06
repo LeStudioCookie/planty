@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&display=swap');
+
+body * {
+    font-family: 'Syne', sans-serif;
+    font-style: normal;
+}
+
+/*HEADER*/
+#site-header {
+    background-color: #ffffff ;
+}
+
+#site-header a {
+   color: #000000;
+   text-decoration: none;
+}
+
+#site-header #menu-item-58 {
+    padding: 30px 61px 31px 61px;
+}
+
+#site-header #menu-item-59 {
+    background-color: #DC9F96;
+    padding: 30px 61px 31px 61px;
+    color: #ffffff;
+}
+
+#site-header #menu-item-59 a {
+    color: #ffffff;
+}
+
+
+/*PAGES*/
+body.page.page-id-55 {
+    background-color: #3B8E46 ;
+}
+body.page.page-id-53 .entry-content .intro p {
+    line-height: 24px;
+}
+
+/*FOOTER*/
+#site-footer {
+    margin-top: 20px;
+    margin-bottom: 0px;
+    padding-bottom: 20PX;
+    text-align: center;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+ }
+ 
+ /*UTILITY*/
+ .custom-p-0 {
+    padding: 0 !important;
+    margin-right: 0;
+}
+
+.wpcf7 .wpcf7-form input[type="text"],
+.wpcf7 .wpcf7-form input[type="email"] {
+    background-color: #ffffff;
+    box-shadow: 0px 4px 14px rgba(0, 0, 0, 0.04);
+    border-radius: 7px;
+    width: 383px;
+    height: 71px;
+    margin-top: 13px;
+}
+
+.wpcf7 .wpcf7-form textarea {
+    background-color: #ffffff;
+    box-shadow: 0px 4px 14px rgba(0, 0, 0, 0.04);
+    border-radius: 7px;
+    width: 383px;
+    height: 237px;
+    margin-top: 13px;
+    resize: none;
+}
+
+.wpcf7 .wpcf7-form input.wpcf7-submit {
+    width: 198px;
+    height: 55px;
+    background-color: #E0B9B4;
+    border-radius: 5px;
+    font-size: 15px;
+    color: #ffffff;
+    font-style: normal;
+}
+
+.wpcf7 .wpcf7-form .wrapper-submit p{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.elementor-55 label {
+    color: #ffffff;
+}
+.elementor-55 .wpcf7 .wpcf7-form input[type="text"],
+.elementor-55 .wpcf7 .wpcf7-form input[type="email"] {
+    background-color: #ffffff;
+    box-shadow: 0px 4px 14px rgba(0, 0, 0, 0.04);
+    border-radius: 7px;
+    width: 100%;
+    height: 71px;
+    margin-top: 13px;
+}
+
+.elementor-55 .essai {
+    padding-left: 44px;
+    border-left: #ffffff solid 1px;
+}
+
+.elementor-55 .essai2 {
+    padding-right: 44px;
+}
+
+.elementor-element-1066379 p,
+.elementor-element-e436b98 p,
+.elementor-element-1a49095 p {
+    line-height: 19px;
+}
+
+.section-contact .elementor-heading-title {
+    margin-top: 0px;
+}

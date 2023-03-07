@@ -123,3 +123,12 @@ body.page.page-id-53 .entry-content .intro p {
 .section-contact .elementor-heading-title {
     margin-top: 0px;
 }
+
+.post-53 p label {
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.post-53 p input:hover {
+    text-decoration: none;
+}

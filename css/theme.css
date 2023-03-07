@@ -132,3 +132,25 @@ body.page.page-id-53 .entry-content .intro p {
 .post-53 p input:hover {
     text-decoration: none;
 }
+.post-55 .button {
+    background-color: #E0B9B4;
+    border-radius: 5px;
+    width: 100px;
+    height: 56px;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.post-55 .input-text {
+    background-color: #ffffff;
+    border-radius: 5px 0px 0px 5px;
+    width: 51px;
+    height: 56px;
+
+}
+
+input[type=number]::-webkit-inner-spin-button {
+    opacity: 0;
+  }
+
+  .post

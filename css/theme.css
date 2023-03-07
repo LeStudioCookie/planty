@@ -22,35 +22,32 @@ body * {
 #site-header #menu-item-59 {
     background-color: #DC9F96;
     padding: 30px 61px 31px 61px;
-    color: #ffffff;
 }
 
 #site-header #menu-item-59 a {
     color: #ffffff;
 }
 
-/*PAGES*/
-
-body.page.page-id-53 .entry-content .intro p {
-    line-height: 24px;
+/*UTILITY*/
+ .custom-p-0 {
+    padding: 0 !important;
+    margin-right: 0px;
+    max-width: 100%;
 }
 
 /*FOOTER*/
 #site-footer {
-    margin-top: 20px;
-    margin-bottom: 0px;
-    padding-bottom: 20PX;
+    padding-top: 15px;
+    padding-bottom: 5px;
     text-align: center;
     font-weight: 400;
     font-size: 16px;
     line-height: 19px;
  }
  
- /*UTILITY*/
- .custom-p-0 {
-    padding: 0 !important;
-    margin-right: 0;
-}
+/*PAGE ACCUEIL*/
+
+
 /*PAGE RENCONTRER*/
 body.page.page-id-53 .entry-content .intro p {
     line-height: 24px;
@@ -117,6 +114,53 @@ body.page.page-id-55 {
     background-color: #3B8E46 ;
 }
 
+            /*personnalisation des boutons quantités et "ok" */
+            /*Boutons quantités*/ 
+.post-55 .input-text {
+    background-color: #ffffff;
+    border-radius: 5px 0px 0px 5px;
+    width: 51px;
+    height: 56px;
+}
+            
+.post-55 .product .container-quantity  {
+    background-color: #DC9F96;
+    color: #ffffff;
+    border-radius: 0px 5px 5px 0px;
+    height: 56px;
+    width: 31px;
+    text-align: center;
+    font-size: 20px;
+}
+            
+.post-55 .product .container-quantity .less {
+    border-top: 1px solid #ffffff;
+    
+}
+        /*Pour aligner les deux blocs*/ 
+.post-55 form.cart {
+    display: flex;
+}
+         /*Pour faire disparaitre les bouton d'origine*/  
+input[type=number]::-webkit-inner-spin-button {
+    opacity: 0;
+}
+            /*Bouton ok*/
+.post-55 .button {
+    background-color: #E0B9B4;
+    border-radius: 5px;
+    width: 100px;
+    height: 56px;
+    font-size: 15px;
+    font-weight: 400;
+    margin-left: 11px;
+}
+
+.post-55 .button:hover {
+    text-decoration: none;
+}
+
+            /* personalisation du formulaire commander*/
 .elementor-55 label {
     color: #ffffff;
 }
@@ -131,52 +175,11 @@ body.page.page-id-55 {
     margin-top: 13px;
 }
 
-.elementor-55 .essai {
-    padding-left: 44px;
+.elementor-55 .left {
+    padding-left: 50px;
     border-left: #ffffff solid 1px;
 }
 
-.elementor-55 .essai2 {
-    padding-right: 44px;
+.elementor-55 .right {
+    padding-right: 50px;
 }
-
-.post-55 .button {
-    background-color: #E0B9B4;
-    border-radius: 5px;
-    width: 100px;
-    height: 56px;
-    font-size: 15px;
-    font-weight: 400;
-    margin-left: 11px;
-}
-
-.post-55 .input-text {
-    background-color: #ffffff;
-    border-radius: 5px 0px 0px 5px;
-    width: 51px;
-    height: 56px;
-    
-}
-
-.post-55 .product .container-quantity  {
-    background-color: #DC9F96;
-    color: #ffffff;
-    border-radius: 0px 5px 5px 0px;
-    height: 56px;
-    width: 31px;
-    text-align: center;
-    
-}
-
-.post-55 .product .container-quantity .more {
-    border-bottom: 1px solid #ffffff;
-}
-.post-55 form.cart {
-    display: flex;
-}
-
-input[type=number]::-webkit-inner-spin-button {
-    opacity: 0;
-  }
-
-  

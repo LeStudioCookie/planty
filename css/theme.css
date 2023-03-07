@@ -31,9 +31,7 @@ body * {
 
 
 /*PAGES*/
-body.page.page-id-55 {
-    background-color: #3B8E46 ;
-}
+
 body.page.page-id-53 .entry-content .intro p {
     line-height: 24px;
 }
@@ -53,6 +51,10 @@ body.page.page-id-53 .entry-content .intro p {
  .custom-p-0 {
     padding: 0 !important;
     margin-right: 0;
+}
+/*PAGE RENCONTRER*/
+body.page.page-id-53 .entry-content .intro p {
+    line-height: 24px;
 }
 
 .wpcf7 .wpcf7-form input[type="text"],
@@ -92,9 +94,34 @@ body.page.page-id-53 .entry-content .intro p {
     flex-direction: column;
 }
 
+.elementor-element-1066379 p,
+.elementor-element-e436b98 p,
+.elementor-element-1a49095 p {
+    line-height: 19px;
+}
+
+.section-contact .elementor-heading-title {
+    margin-top: 0px;
+}
+
+.post-53 p label {
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.post-53 p input:hover {
+    text-decoration: none;
+}
+
+/*PAGE COMMANDER*/ 
+body.page.page-id-55 {
+    background-color: #3B8E46 ;
+}
+
 .elementor-55 label {
     color: #ffffff;
 }
+
 .elementor-55 .wpcf7 .wpcf7-form input[type="text"],
 .elementor-55 .wpcf7 .wpcf7-form input[type="email"] {
     background-color: #ffffff;
@@ -114,24 +141,6 @@ body.page.page-id-53 .entry-content .intro p {
     padding-right: 44px;
 }
 
-.elementor-element-1066379 p,
-.elementor-element-e436b98 p,
-.elementor-element-1a49095 p {
-    line-height: 19px;
-}
-
-.section-contact .elementor-heading-title {
-    margin-top: 0px;
-}
-
-.post-53 p label {
-    font-weight: 400;
-    font-size: 20px;
-}
-
-.post-53 p input:hover {
-    text-decoration: none;
-}
 .post-55 .button {
     background-color: #E0B9B4;
     border-radius: 5px;
@@ -146,11 +155,10 @@ body.page.page-id-53 .entry-content .intro p {
     border-radius: 5px 0px 0px 5px;
     width: 51px;
     height: 56px;
-
 }
 
 input[type=number]::-webkit-inner-spin-button {
     opacity: 0;
   }
 
-  .post
+  

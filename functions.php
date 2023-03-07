@@ -18,9 +18,10 @@ add_filter( 'woocommerce_loop_add_to_cart_link', 'quantity_inputs_for_woocommerc
 function quantity_inputs_for_woocommerce_loop_add_to_cart_link( $html, $product ) {
 	$html = '<form action="' . esc_url( $product->add_to_cart_url() ) . '" class="cart" method="post" enctype="multipart/form-data">';
     $html .= woocommerce_quantity_input( array(), $product, false );
+    $html .= '<div class="container-quantity"><div class="more">+</div><div class="less">-</div></div>';
     $html .= '<button type="submit" class="button alt">'.__('ok','woocommerce').'</button>';
     $html .= '</form>';
 	return $html;
 }
 
-?>
+remove_action( 'woocommerce_shop_loop_item_title','woocommerce_template_loop_product_title', 10 );

@@ -13,7 +13,7 @@
 
 ?>
 			<footer id="site-footer" class="header-footer-group">
-			<p class="footer-end">Mentions Légales</p>
+			<a class="footer-end" href="http://localhost/Planty/" >Mentions Légales</a>
 			</footer><!-- #site-footer -->
 
 		<?php wp_footer(); ?>

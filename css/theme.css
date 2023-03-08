@@ -44,7 +44,6 @@ body * {
     order:3;
 }
 
-
 /*UTILITY*/
  .custom-p-0 {
     padding: 0 !important;
@@ -60,6 +59,15 @@ body * {
     font-weight: 400;
     font-size: 16px;
     line-height: 19px;
+    
+ }
+
+#site-footer a.footer-end {
+    color: #000000;
+ }
+
+#site-footer a.footer-end:hover {
+    text-decoration: none;
  }
  
 /*PAGE ACCUEIL*/

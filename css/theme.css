@@ -28,6 +28,23 @@ body * {
     color: #ffffff;
 }
 
+.header-navigation-wrapper #menu-item-58{
+    order:1;
+}
+
+.header-navigation-wrapper #menu-admin{
+    order:2;
+}
+
+.header-navigation-wrapper #menu-admin a{
+    padding: 30px 61px 31px 61px;
+}
+
+.header-navigation-wrapper #menu-item-59{
+    order:3;
+}
+
+
 /*UTILITY*/
  .custom-p-0 {
     padding: 0 !important;

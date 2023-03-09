@@ -24,26 +24,29 @@ body * {
     padding: 30px 61px 31px 61px;
 }
 
+#site-header #menu-item-59:hover {
+    background-color: #C02E44;
+}
+
 #site-header #menu-item-59 a {
     color: #ffffff;
 }
 
-.header-navigation-wrapper #menu-item-58{
+.header-navigation-wrapper #menu-item-58 {
     order:1;
 }
 
-.header-navigation-wrapper #menu-admin{
+.header-navigation-wrapper #menu-admin {
     order:2;
 }
 
-.header-navigation-wrapper #menu-admin a{
-    padding: 30px 61px 31px 61px;
-}
-
-.header-navigation-wrapper #menu-item-59{
+.header-navigation-wrapper #menu-item-59 {
     order:3;
 }
 
+.header-navigation-wrapper #menu-admin a {
+    padding: 30px 61px 31px 31px;
+}
 /*UTILITY*/
  .custom-p-0 {
     padding: 0 !important;
@@ -53,22 +56,32 @@ body * {
 
 /*FOOTER*/
 #site-footer {
-    padding-top: 15px;
-    padding-bottom: 5px;
     text-align: center;
     font-weight: 400;
     font-size: 16px;
     line-height: 19px;
-    
- }
+}
 
 #site-footer a.footer-end {
     color: #000000;
- }
+}
 
 #site-footer a.footer-end:hover {
     text-decoration: none;
- }
+}
+
+.reduced-spacing.footer-top-visible .footer-nav-widgets-wrapper, .reduced-spacing.footer-top-hidden #site-footer {
+    border-top: none;
+}
+
+ #site-footer{
+    padding: 20px;
+}
+
+.footer-top-hidden #site-footer 
+{ margin-top: 0px;
+}
+
  
 /*PAGE ACCUEIL*/
 
@@ -207,4 +220,15 @@ input[type=number]::-webkit-inner-spin-button {
 
 .elementor-55 .right {
     padding-right: 50px;
+}
+
+@media screen and (max-width: 600px) {
+    .elementor-55 .left {
+        padding-left: 0px;
+        border-left: none;
+    }
+    
+    .elementor-55 .right {
+        padding-right: 0px;
+    }
 }

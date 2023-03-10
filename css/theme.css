@@ -47,6 +47,7 @@ body * {
 .header-navigation-wrapper #menu-admin a {
     padding: 30px 61px 31px 31px;
 }
+
 /*UTILITY*/
  .custom-p-0 {
     padding: 0 !important;
@@ -78,8 +79,8 @@ body * {
     padding: 20px;
 }
 
-.footer-top-hidden #site-footer 
-{ margin-top: 0px;
+.footer-top-hidden #site-footer {  
+    margin-top: 0px;
 }
 
  
@@ -119,6 +120,10 @@ body.page.page-id-53 .entry-content .intro p {
     font-size: 15px;
     color: #ffffff;
     font-style: normal;
+}
+
+.wpcf7 .wpcf7-form input.wpcf7-submit:hover {
+    background-color: #C02E44;
 }
 
 .wpcf7 .wpcf7-form .wrapper-submit p{
@@ -172,8 +177,7 @@ body.page.page-id-55 {
 }
             
 .post-55 .product .container-quantity .less {
-    border-top: 1px solid #ffffff;
-    
+    border-top: 1px solid #ffffff; 
 }
         /*Pour aligner les deux blocs*/ 
 .post-55 form.cart {
@@ -194,13 +198,28 @@ input[type=number]::-webkit-inner-spin-button {
     margin-left: 11px;
 }
 
+.post-55 .button:hover { 
+    background-color: #C02E44;
+}
+
 .post-55 .button:hover {
     text-decoration: none;
 }
 
             /* personalisation du formulaire commander*/
+
+.post-55 .entry-content h3 {  
+    color: #ffffff;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 36px;
+    margin-top: 0px;
+}   
+
 .elementor-55 label {
     color: #ffffff;
+    font-size: 20px;
+    font-weight: 400;
 }
 
 .elementor-55 .wpcf7 .wpcf7-form input[type="text"],
@@ -213,22 +232,73 @@ input[type=number]::-webkit-inner-spin-button {
     margin-top: 13px;
 }
 
-.elementor-55 .left {
-    padding-left: 50px;
-    border-left: #ffffff solid 1px;
+.post-55 .precommande {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-bottom: 0%;
+  }
+
+.post-55 .informations {
+    margin-left: 100px;
+    border-right: 1px solid #ffffff;
+    padding-right: 44px;
+  }
+
+.post-55 .livraison {
+    margin-right: 100px;
+    padding-left: 44px;
+  }
+
+.post-55 .commander {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 50px;
 }
 
-.elementor-55 .right {
-    padding-right: 50px;
+.post-55 .commander input:hover {
+    text-decoration: none;
+}
+
+.post-55 .wpcf7-spinner {
+    margin: 0px;
+    width: auto;
 }
 
 @media screen and (max-width: 600px) {
-    .elementor-55 .left {
-        padding-left: 0px;
-        border-left: none;
+    .post-55 .precommande {
+        display: grid;
+        grid-template-columns: 1fr;
+        padding-bottom: 0%;
+    }
+
+    .post-55 .informations {
+        margin-left: 0px;
+        border-right: none;
+        padding-right: 0px;
+        border-bottom: 1px solid #ffffff;
     }
     
-    .elementor-55 .right {
-        padding-right: 0px;
+    .post-55 .livraison {
+        margin-right: 0px;
+        padding-left: 0px;
+        margin-top: 10px;
     }
+
+    .elementor-55 label {
+        font-size: 15px;
+        font-weight: 400;
+    }
+
+    .post-55 .entry-content h3 {  
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 36px;
+        margin-top: 0px;
+    }  
+.post-55 .woocommerce ul.products li.product {
+    align-items: center;
 }
+
+}
+

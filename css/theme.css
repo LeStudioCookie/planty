@@ -183,12 +183,14 @@ body.page.page-id-55 {
 .post-55 form.cart {
     display: flex;
 }
+
 /*Pour faire disparaitre le bouton d'origine*/  
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
     -webkit-appearance: none;
     margin: 0;
 }
+
 input[type=number] {
     -moz-appearance: textfield;
   }
@@ -242,18 +244,18 @@ input[type=number] {
     display: grid;
     grid-template-columns: 1fr 1fr;
     padding-bottom: 0%;
-  }
+}
 
 .post-55 .informations {
     margin-left: 100px;
     border-right: 1px solid #ffffff;
     padding-right: 44px;
-  }
+}
 
 .post-55 .livraison {
     margin-right: 100px;
     padding-left: 44px;
-  }
+}
 
 .post-55 .commander {
     display: flex;

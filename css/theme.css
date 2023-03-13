@@ -273,6 +273,42 @@ input[type=number] {
     width: auto;
 }
 
+@media screen and (max-width: 1024px) {
+    .elementor-53 .wpcf7-form p label {
+        text-align: center;
+    }
+
+    .elementor-53 .wpcf7 .wpcf7-form input[type="text"],
+    .elementor-53 .wpcf7 .wpcf7-form input[type="email"] {
+        width: 100%;
+    }
+
+    .elementor-53 .wpcf7 .wpcf7-form textarea {
+        width: 100%;
+    }
+    .elementor-55 ul.products  {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .elementor-55 ul.products:before  {
+        display: none;
+    }
+
+    .woocommerce ul.products li.product {
+        width: 100%;
+        margin-left: 55px;
+    }
+
+    .post-55 .entry-content h3 {
+        font-size: 25px;
+        text-align: center;
+    }
+
+    .elementor-55 label {
+        text-align: center;
+    }
+
+    }
 
 @media screen and (max-width: 600px) {
     .post-55 .precommande {
@@ -308,7 +344,10 @@ input[type=number] {
 
     .post-55 .woocommerce ul.products li.product {
     align-items: center;
-}
+}}
 
-}
+
+
+
+
 

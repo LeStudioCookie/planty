@@ -179,6 +179,7 @@ body.page.page-id-55 {
 .post-55 .product .container-quantity .less {
     border-top: 1px solid #ffffff; 
 }
+
         /*Pour aligner les deux blocs*/ 
 .post-55 form.cart {
     display: flex;
@@ -286,11 +287,13 @@ input[type=number] {
     .elementor-53 .wpcf7 .wpcf7-form textarea {
         width: 100%;
     }
-    .elementor-55 ul.products  {
+
+    .elementor-55 ul.products {
         display: grid;
         grid-template-columns: 1fr 1fr;
     }
-    .elementor-55 ul.products:before  {
+
+    .elementor-55 ul.products:before {
         display: none;
     }
 
@@ -343,7 +346,8 @@ input[type=number] {
 
     .post-55 .woocommerce ul.products li.product {
     align-items: center;
-}}
+    }
+    }
 
 
 

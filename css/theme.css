@@ -193,7 +193,7 @@ input::-webkit-inner-spin-button {
 }
 
 input[type=number] {
-    -moz-appearance: textfield;
+    -moz-appearance: "textfield";
   }
 
             /*Bouton ok*/
@@ -347,6 +347,11 @@ input[type=number] {
     .post-55 .woocommerce ul.products li.product {
     align-items: center;
     }
+    .elementor-55 ul.products {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
     }
 
 

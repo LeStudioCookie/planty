@@ -347,6 +347,7 @@ input[type=number] {
     .post-55 .woocommerce ul.products li.product {
     align-items: center;
     }
+    
     .elementor-55 ul.products {
         display: grid;
         grid-template-columns: 1fr;
